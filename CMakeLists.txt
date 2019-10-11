@@ -12,15 +12,15 @@ include(../PluginRules.cmake)
 	Source/ProbeViewerEditor.h
 	Source/ProbeViewerNode.cpp
 	Source/ProbeViewerNode.h
-	Source/ChannelViewCanvas/ChannelViewCanvas.cpp
-	Source/ChannelViewCanvas/ChannelViewCanvas.hpp
 	Source/ChannelViewCanvas/CanvasOptionsBar.cpp
 	Source/ChannelViewCanvas/CanvasOptionsBar.hpp
+	Source/ChannelViewCanvas/ChannelViewCanvas.cpp
+	Source/ChannelViewCanvas/ChannelViewCanvas.hpp
 	Source/kissfft/_kiss_fft_guts.h
 	Source/kissfft/kiss_fft.c
 	Source/kissfft/kiss_fft.h
 	Source/kissfft/kiss_fftr.c
-	Source/kissfft/kiss_fftr.h
+	Source/kissfft/kiss_fftr.c
 	Source/NeuropixInterface/NeuropixInterface.cpp
 	Source/NeuropixInterface/NeuropixInterface.hpp
 	Source/TimeScale/ProbeViewerTimeScale.cpp
@@ -30,6 +30,6 @@ include(../PluginRules.cmake)
 	Source/Utilities/ColourScheme.cpp
 	Source/Utilities/ColourScheme.hpp
 	)
-target_link_libraries(${PLUGIN_NAME}  ${OpenCV_LIBS})
+
 #optional: create IDE groups
 plugin_create_filters()
